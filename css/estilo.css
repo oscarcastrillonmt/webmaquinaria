@@ -1,0 +1,38 @@
+ /* Style the buttons that are used to open and close the accordion panel */
+ .row {
+    background-color: rgb(241, 245, 247);
+    color: black;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+  }
+  
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  .active, .row:hover {
+    background-color: rgb(7, 88, 109);
+    color: whitesmoke;
+  }
+  
+  /* Style the accordion panel. Note: hidden by default */
+  .table {
+    background-color: white;
+    color: black;
+} 
+  /* Style the accordion panel. Note: hidden by default */
+  .btn btn-primary {
+    background-color: whitesmoke;
+    color: black;
+    text-align:start;
+    font-weight: bold;
+    position:relative; 
+    left:20px; 
+    top:2px; 
+} 
+.body{
+  background-color: rgb(7, 88, 109);
+  color: whitesmoke;
+}
