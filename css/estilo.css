@@ -22,8 +22,8 @@
     background-color: white;
     color: black;
 } 
-  /* Style the accordion panel. Note: hidden by default */
-  .btn btn-primary {
+  
+  .btnAgregarCliente {
     background-color: whitesmoke;
     color: black;
     text-align:start;
@@ -34,5 +34,5 @@
 } 
 .body{
   background-color: rgb(7, 88, 109);
-  color: whitesmoke;
+    color: whitesmoke;
 }
